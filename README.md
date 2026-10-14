@@ -1,54 +1,57 @@
 # Network Engineering Labs
 
-**Hands-on networking practice with Cisco Packet Tracer**
+**A practical portfolio of computer networking, physical connectivity, network configuration, and troubleshooting.**
 
-This repository documents my development in computer networking, from identifying infrastructure devices and building network diagrams to future exercises in configuration, connectivity testing, troubleshooting, and network security.
+This repository documents structured networking laboratories undertaken as part of my professional development in Infrastructure Engineering. Each exercise records its technical objective, implementation scope, supporting evidence, verification status, and areas for further development.
 
-I am an MS in Information Technology student at **Carnegie Mellon University Africa** developing foundational skills through practical, documented labs.
+**Author:** John Akech · MS Information Technology, Carnegie Mellon University Africa  
+**Primary simulation platform:** Cisco Packet Tracer  
+**Professional focus:** Systems · Networking · Cybersecurity · Cloud Infrastructure
 
-## Lab Index
+## Laboratory Directory
 
-| Lab | Topic | Evidence | Status |
-| --- | --- | --- | --- |
-| **01** | [Network Devices and Topology](lab-01-network-devices/README.md) | [Packet Tracer project](lab-01-network-devices/Day%2001%20Lab%20-%20Packet%20Tracer.pkt) · [Topology screenshot](lab-01-network-devices/topology.png) | **Topology documented; configuration not yet completed** |
-| **02** | [Cabling and Connecting Devices](lab-02-connecting-devices/README.md) | Cable-selection report; Packet Tracer file and screenshot awaiting repository upload | **Media-selection exercise documented; connectivity not verified** |
+| Lab | Engineering focus | Technical evidence | Verification status |
+|:---|:---|:---|:---|
+| **01** | [Network Devices and Topology](lab-01-network-devices/README.md) | [Packet Tracer activity](lab-01-network-devices/Day%2001%20Lab%20-%20Packet%20Tracer.pkt) · [Topology image](lab-01-network-devices/topology.png) | Device identification and topology construction completed; IP connectivity not tested |
+| **02** | [Network Cabling and Physical Connectivity](lab-02-connecting-devices/README.md) | [Packet Tracer activity](lab-02-connecting-devices/Day%2002%20Lab%20-%20Connecting%20Devices.pkt) · [Topology image](lab-02-connecting-devices/topology2.png) | Media-selection exercise documented; operational links and packet delivery not independently verified |
 
-## Lab 01 — Introduction to Network Devices
+### Laboratory 01 — Network Devices and Topology
 
-The first lab uses Cisco Packet Tracer to identify device roles and assemble a simplified two-branch topology. It includes Cisco 2911 routers, Cisco 2960 switches, Cisco ASA 5505 firewalls, PCs, servers, a laptop representing a potential attacker, and an additional router representing the Internet.
+An introductory topology-building exercise identifying the roles of clients, servers, routers, switches, and firewalls. The lab demonstrates device selection, placement, and cable connections. Routing, addressing, and network operation are outside its completed scope.
 
-![Lab 01 topology](lab-01-network-devices/topology.png)
+[Read the technical report →](lab-01-network-devices/README.md)
 
-**What the lab demonstrates:** Device selection, placement, basic understanding of client/server and network-device roles, connections using Packet Tracer's automatic connection selection, and topology documentation.
+### Laboratory 02 — Network Cabling and Physical Connectivity
 
-**What it does not yet demonstrate:** Working IP addressing, verified end-to-end connectivity, configured routing, operational firewall policies, or tested security controls. Some links may not be operational. These are future activities—not completed results.
+An exercise in traditional copper Ethernet cable selection **without Auto MDI-X**, alongside multimode and single-mode fiber considerations for different illustrative link distances. The lab evaluates cabling principles and physical-media selection; it does not claim successful end-to-end connectivity.
 
-**[Read the full Lab 01 report →](lab-01-network-devices/README.md)**
+[Read the technical report →](lab-02-connecting-devices/README.md)
 
-### Lab 02 — Cable Selection and Distance
+## Engineering Documentation Standard
 
-The second lab examines copper straight-through and crossover cables **without Auto MDI-X**, along with the distance and compatibility considerations for multimode and single-mode fiber. [Read the Day 02 report](lab-02-connecting-devices/README.md). The original Packet Tracer activity and image are not yet uploaded to this repository.
+Each laboratory is intended to include:
 
-## Learning Roadmap
+1. **Objective and scope** — technical question, learning outcomes, and assumptions.
+2. **Environment and topology** — tools, equipment, diagram, and source activity.
+3. **Implementation** — configurations, cabling choices, or commands used.
+4. **Verification** — tests performed and observed results, where applicable.
+5. **Troubleshooting** — faults encountered, analysis, and corrective action.
+6. **Limitations and next steps** — unresolved issues and planned extensions.
 
-My planned networking progression includes:
+**Working method:** Understand → Design → Configure → Test → Troubleshoot → Verify → Document → Improve
 
-1. Networking concepts, network devices, and physical/logical topologies
-2. Ethernet media, cable selection, and physical-link verification
-3. IP addressing, subnetting, and basic connectivity tests
-4. Ethernet switching, VLANs, and inter-VLAN routing
-5. Routing, DHCP, DNS, NAT, and troubleshooting
-6. Access control, firewalls, segmentation, and network security
-7. Packet analysis, fault isolation, and documented validation
+## Development Roadmap
 
-These are **planned areas of study**, not claims that the corresponding labs have already been completed.
+Future laboratories will progressively cover IP addressing and subnetting, Ethernet switching and VLANs, inter-VLAN routing, routing protocols, DHCP and DNS, NAT, access controls, network segmentation, packet analysis, and structured fault isolation.
 
-## Documentation Standard
+**These topics describe future work, not completed project outcomes.** New laboratories will be indexed here only when their documentation and supporting evidence are published.
 
-As each lab progresses, I aim to provide the objective, tools and topology, configuration details, commands where applicable, tests, observed results, troubleshooting steps, limitations, and lessons learned.
+## Portfolio and Contact
 
-**Engineering workflow:** Understand → Configure → Test → Break → Troubleshoot → Explain → Document → Improve
+This repository is part of my broader [Infrastructure Engineering portfolio](https://github.com/jakech-sys), which also includes the [IT Support and Systems Administration Home Lab](https://github.com/jakech-sys/it-support-homelab).
+
+For academic and professional correspondence: [jakech@andrew.cmu.edu](mailto:jakech@andrew.cmu.edu).
 
 ---
 
-**Related work:** [IT Support Home Lab](https://github.com/jakech-sys/it-support-homelab) · [GitHub Profile](https://github.com/jakech-sys)
+*Evidence-based engineering documentation. Completed work, verification results, and outstanding limitations are reported separately.*
