@@ -9,8 +9,8 @@ This is a **physical connectivity and media-selection lab**. Successful network-
 ## Lab Environment
 
 - **Tool:** Cisco Packet Tracer
-- **Lab file:** `Day 02 Lab - Connecting Devices.pkt` (source file prepared; repository upload pending)
-- **Evidence:** Topology screenshot (prepared; repository upload pending)
+- **Lab file:** [Day 02 Lab - Connecting Devices.pkt](Day%2002%20Lab%20-%20Connecting%20Devices.pkt)
+- **Evidence:** [Topology screenshot](topology2.png)
 - **Topology:** Two groups of access switches and end devices connected through routers, with a longer-distance link between the upper routers
 
 The diagram includes four labeled routers (R1–R4), eight switches (SW1–SW8), three PCs (PC1–PC3), and one server (SRV1). It also labels illustrative link distances of **50 m, 250 m, and 3 km**. These distances are exercise assumptions, not field measurements.
@@ -40,6 +40,12 @@ For common twisted-pair Ethernet installations, the usual structured-cabling **c
 | **3 km** | Single-mode fiber is generally appropriate | Requires compatible single-mode optical interfaces and sufficient optical budget |
 
 **550 m is not a general boundary between multimode and single-mode fiber.** Supported reach varies by Ethernet standard, data rate, fiber grade, transceiver, and optical power budget. Fiber media also require compatible interfaces/modules at both ends.
+
+## Topology Evidence
+
+![Day 02 — Cable selection topology](topology2.png)
+
+[Open the Packet Tracer activity](Day%2002%20Lab%20-%20Connecting%20Devices.pkt) · [View the full-size topology](topology2.png)
 
 ## Procedure
 
