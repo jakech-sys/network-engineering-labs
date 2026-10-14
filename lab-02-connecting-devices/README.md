@@ -2,9 +2,9 @@
 
 ## Objective
 
-Identify appropriate network transmission media and connect devices in Cisco Packet Tracer while **assuming Auto MDI-X is unavailable**. This exercise develops foundational understanding of copper straight-through cables, copper crossover cables, multimode fiber, single-mode fiber, and distance-based media selection.
+I completed this Cisco Packet Tracer lab to select network cables and connect devices while **assuming Auto MDI-X is unavailable**. I practiced choosing copper straight-through and crossover cables and evaluating multimode and single-mode fiber for different link distances.
 
-This is a **physical connectivity and media-selection lab**. Successful network-layer communication has not been established or claimed.
+The completed objective was the construction of a cabled topology and the application of media-selection principles. IP addressing, routing, and end-to-end packet testing were not required for this exercise.
 
 ## Lab Environment
 
@@ -62,18 +62,18 @@ For common twisted-pair Ethernet installations, the usual structured-cabling **c
 - Copper cabling is a practical option for local links within supported Ethernet distance limits.
 - Fiber selection requires considering **both link distance and the physical-layer specifications**.
 - The illustrative 3 km link motivates the use of single-mode optics; a 250 m link may support multimode optics when the chosen specifications permit.
-- The screenshot is evidence of a designed topology and media choices, **not proof of working interfaces, correct configuration, or successful packet delivery**.
+- The completed Packet Tracer file and screenshot record my topology and cable choices. Network-layer performance and packet delivery were not the objectives of this lab.
 
-## Scope and Verification Status
+## Completed Work and Scope
 
 | Activity | Status |
 | --- | --- |
-| Device topology reviewed | Completed |
-| Physical-media selection studied | Completed |
-| Cable type and distance reasoning documented | Completed |
+| Network topology constructed in Packet Tracer | Completed |
+| Copper and fiber media selection exercised | Completed |
+| Cable type and distance considerations documented | Completed |
 | IP addressing and routing configuration | Not part of this lab |
-| Interface status and link compatibility testing | Not independently verified |
-| End-to-end ping and traffic verification | Not performed / not evidenced |
+| Interface status and hardware compatibility tests | Not part of the documented test evidence |
+| End-to-end ping and traffic verification | Outside the completed lab scope |
 
 **Note:** Colored indicators in a Packet Tracer screenshot alone do not establish the cause of a down link. Device status, supported ports/modules, cabling, and interface configuration should be examined before diagnosing a failure.
 
@@ -93,4 +93,4 @@ This activity reinforced why engineers verify hardware compatibility and physica
 
 ---
 
-**Documentation standard:** This report describes the exercise and observed topology without claiming network operation that has not been demonstrated.
+**Lab completion:** I completed the cable-selection and topology-construction exercise and retained the Packet Tracer file and screenshot as supporting evidence. Further network configuration and connectivity verification belong to subsequent labs.
