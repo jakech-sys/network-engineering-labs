@@ -2,9 +2,9 @@
 
 ## Objective
 
-The objective of this lab is to identify common networking devices, understand their basic functions, and practice creating a network topology using Cisco Packet Tracer.
+I completed this lab to identify common networking devices, understand their roles, and build a network topology in Cisco Packet Tracer.
 
-This introductory exercise focuses on device identification, placement, and connections rather than network configuration or connectivity testing.
+The exercise required me to select, position, and connect network devices. Device configuration and connectivity testing were not objectives of this lab.
 
 ## Tools
 
@@ -38,7 +38,7 @@ This introductory exercise focuses on device identification, placement, and conn
 
 ## Network Topology
 
-The topology represents two hypothetical branches: Kigali and Nairobi.
+I designed the topology to represent two hypothetical branches: Kigali and Nairobi.
 
 The Kigali branch contains two PCs connected to a switch, which connects to a router and firewall.
 
@@ -73,15 +73,11 @@ An additional router represents the Internet, while a laptop represents a potent
 
 ## Scope and Limitations
 
-This lab is an introductory topology-building exercise.
-
-IP addressing, routing, firewall configuration, and connectivity testing have not been performed. Some connections are not operational, which is expected at this stage.
+I completed the device-identification and topology-construction requirements for this introductory lab. IP addressing, routing, firewall policies, and end-to-end connectivity testing were outside the assigned scope. The diagram is a topology deliverable, not a claim of a fully configured network.
 
 ## Lessons Learned
 
-This exercise introduced the basic roles of clients, servers, switches, routers, and firewalls in a computer network.
-
-It also provided initial experience with device placement, network topology design, and connecting devices in Cisco Packet Tracer.
+I gained hands-on experience selecting routers, switches, firewalls, servers, and client devices, arranging them into a two-branch network, and building the intended connections in Cisco Packet Tracer.
 
 ## Next Steps
 
