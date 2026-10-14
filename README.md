@@ -1,8 +1,8 @@
 # Network Engineering Labs
 
-**A practical portfolio of computer networking, physical connectivity, network configuration, and troubleshooting.**
+**Practical Network Engineering | Cisco Packet Tracer Laboratories**
 
-This repository documents structured networking laboratories undertaken as part of my professional development in Infrastructure Engineering. Each exercise records its technical objective, implementation scope, supporting evidence, verification status, and areas for further development.
+I design, build, and document network laboratories in Cisco Packet Tracer to develop practical engineering skills. This portfolio presents my completed exercises, the decisions behind each topology, and the project files and screenshots supporting my work.
 
 **Author:** John Akech · MS Information Technology, Carnegie Mellon University Africa  
 **Primary simulation platform:** Cisco Packet Tracer  
@@ -10,20 +10,20 @@ This repository documents structured networking laboratories undertaken as part 
 
 ## Laboratory Directory
 
-| Lab | Engineering focus | Technical evidence | Verification status |
+| Lab | Engineering focus | Technical evidence | Completed work |
 |:---|:---|:---|:---|
-| **01** | [Network Devices and Topology](lab-01-network-devices/README.md) | [Packet Tracer activity](lab-01-network-devices/Day%2001%20Lab%20-%20Packet%20Tracer.pkt) · [Topology image](lab-01-network-devices/topology.png) | Device identification and topology construction completed; IP connectivity not tested |
-| **02** | [Network Cabling and Physical Connectivity](lab-02-connecting-devices/README.md) | [Packet Tracer activity](lab-02-connecting-devices/Day%2002%20Lab%20-%20Connecting%20Devices.pkt) · [Topology image](lab-02-connecting-devices/topology2.png) | Media-selection exercise documented; operational links and packet delivery not independently verified |
+| **01** | [Network Devices and Topology](lab-01-network-devices/README.md) | [Packet Tracer activity](lab-01-network-devices/Day%2001%20Lab%20-%20Packet%20Tracer.pkt) · [Topology image](lab-01-network-devices/topology.png) | Designed and built a multi-branch device topology |
+| **02** | [Network Cabling and Physical Connectivity](lab-02-connecting-devices/README.md) | [Packet Tracer activity](lab-02-connecting-devices/Day%2002%20Lab%20-%20Connecting%20Devices.pkt) · [Topology image](lab-02-connecting-devices/topology2.png) | Built a connected topology and applied copper/fiber media-selection principles |
 
 ### Laboratory 01 — Network Devices and Topology
 
-An introductory topology-building exercise identifying the roles of clients, servers, routers, switches, and firewalls. The lab demonstrates device selection, placement, and cable connections. Routing, addressing, and network operation are outside its completed scope.
+I built a two-branch Packet Tracer topology using routers, switches, firewalls, PCs, servers, and an additional laptop. I arranged the devices and created their connections to demonstrate their respective functions and relationships. IP addressing and routing were not part of this introductory lab.
 
 [Read the technical report →](lab-01-network-devices/README.md)
 
 ### Laboratory 02 — Network Cabling and Physical Connectivity
 
-An exercise in traditional copper Ethernet cable selection **without Auto MDI-X**, alongside multimode and single-mode fiber considerations for different illustrative link distances. The lab evaluates cabling principles and physical-media selection; it does not claim successful end-to-end connectivity.
+I built a second topology and selected physical connections using traditional copper Ethernet cabling rules **without Auto MDI-X**, together with multimode and single-mode fiber considerations at illustrative distances. The completed objective was cable and media selection, not IP addressing or end-to-end application connectivity.
 
 [Read the technical report →](lab-02-connecting-devices/README.md)
 
@@ -44,7 +44,7 @@ Each laboratory is intended to include:
 
 Future laboratories will progressively cover IP addressing and subnetting, Ethernet switching and VLANs, inter-VLAN routing, routing protocols, DHCP and DNS, NAT, access controls, network segmentation, packet analysis, and structured fault isolation.
 
-**These topics describe future work, not completed project outcomes.** New laboratories will be indexed here only when their documentation and supporting evidence are published.
+I will add future laboratories as I complete them, alongside their Packet Tracer files, configurations, results, and documentation.
 
 ## Portfolio and Contact
 
@@ -54,4 +54,4 @@ For academic and professional correspondence: [jakech@andrew.cmu.edu](mailto:jak
 
 ---
 
-*Evidence-based engineering documentation. Completed work, verification results, and outstanding limitations are reported separately.*
+*Original practical work, professionally documented. Each report defines the scope of the exercise and records supporting evidence.*
